@@ -1,0 +1,49 @@
+
+.Contenedor .caja:nth-child(1){
+
+	background-color: #FFFF00;
+
+}
+
+.Contenedor .caja:nth-child(2){
+
+	background-color: #3A81BA;
+
+
+}
+
+.Contenedor .caja:nth-child(3){
+	background-color: #ED2251;
+
+}
+
+.Contenedor{
+
+	border: 1px solid #CCCCCC;
+}
+
+.caja {
+
+	width: 25%;
+	height: 50px;
+	float: left;
+	
+}
+
+.clearfix:before, .clearfix:after {
+
+	content: " ";
+	display: table;
+
+}
+
+.clearfix:after{
+
+	clear: both;
+
+}
+
+
+
+
+
